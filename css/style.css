@@ -1,0 +1,499 @@
+body
+{
+    padding:0px;
+    margin:0px;
+    font-family: 'Poppins';
+}
+p
+{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+#main-wrapper
+{
+    margin-left: 280px;
+}
+.primary-menu {
+    background: #fff;
+    border-right: 1px solid rgba(0,0,0,.07);
+    box-shadow: 0 0 15px rgb(0 0 0 / 7%);
+    height: 100%!important;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    width: 280px;
+    z-index: 2;
+}
+.dp 
+{
+    width: 176px;
+    height: 176px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #343a40;
+}
+.dp img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo
+{
+    text-decoration: none;
+}
+.logo h1
+{
+    font-size: 22px;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:hover
+{
+    color:#FECB01;
+}
+.social-icons 
+{
+    padding-left: 0px;
+}
+.social-icons li
+{
+    padding: 15px 10px;
+    list-style-type: none;
+}
+.social-icons li a i 
+{
+    color: white;
+    font-size: 20px;
+}
+.social-icons li a i:hover 
+{
+    color:#FECB01;
+}
+.primary-menu .navbar-nav
+{
+    flex-direction: column;
+}
+#home,#about-me
+{
+    position: relative;
+}
+.home-bg-img
+{
+    background-image:url('../images/home-bg2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    transition: background-image .3s ease-in .2s;
+    z-index: 0;
+}
+.home-bg-img,.home-bg-color
+{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.home-bg-color
+{
+    z-index: 1;
+    background-color: #111418;
+    opacity: 0.8;
+}
+.home-wrap
+{
+    position: relative;
+    z-index: 2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#typewriter-prefix {
+    text-align: left;
+    color: white;
+}
+#typewriter-suffix {
+    color: #FECB01;
+  }
+  
+  #typewriter-text {
+    color: #FECB01;
+  }
+  .home-wrap h4
+  {
+    font-size: 24px;
+  }
+  .home-wrap h1
+  {
+    font-size: 58px;
+    font-weight: 600;
+  }
+.btn:focus
+{
+    box-shadow: none;
+}
+.btn 
+{
+    border-radius: 50px;
+    color: white;
+    padding: 15px 30px;
+}
+.btn-outline
+{
+    border:1px solid #FECB01;
+    color: #FECB01;
+}
+.btn-primary
+{
+    background-color: #FECB01;
+    color: black;
+    border-color: #FECB01;
+}
+.btn-outline:hover,.btn-primary:hover
+{
+    background-color: #FECB01;
+    color: black;
+    border-color: #FECB01;
+}
+.pd-100
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bg-dark-1
+{
+    background-color: #212529;
+}
+.bg-dark-2
+{
+    background-color: #343a40;
+}
+.main-title
+{
+    position: relative;
+}
+.main-title h2
+{
+    font-size: 120px;
+    font-weight: 600;
+    opacity: 0.1;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.main-title p 
+{
+    position: absolute;
+    font-size: 36px;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-title p span
+{
+    background-color: #FECB01;
+    width: 80px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+}
+.about-let h3 
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+.about-let h3 span
+{
+    color: #FECB01;
+}
+.experince span
+{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    background-color: #FECB01;
+    font-weight: 600;
+    font-size: 30px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 5px;
+}
+.about-right ul 
+{
+    margin: 0px;
+    padding-left: 0px;
+}
+.about-right ul li 
+{
+    list-style-type: none;
+    display:list-item;
+    padding: 15px 0px;
+    border-bottom: 1px solid #eaeaea;
+    color: white;
+}
+.about-right ul li a 
+{
+    text-decoration: none;
+    color: #FECB01;
+}
+.service-icon
+{
+    background-color: #212529;
+    color:#FECB01;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+.service-icon i 
+{
+    font-size: 36px;
+}
+.service-text
+{
+    width: calc(100% - 70px);
+}
+.contact-ul
+{
+    padding-left: 0px;
+}
+.contact-ul li 
+{
+    padding: 5px 0px;
+    list-style-type: none;
+    color: white;
+}
+.contact-ul li span
+{
+    color: #FECB01;
+    margin-right: 10px;
+}
+.contact-left  .social-icons li 
+{
+    padding: 5px 20px 0px 0px;
+}
+.contact-form input,.contact-form textarea
+{
+    border: none;
+    background-color: #232a31;
+    padding: 12px 15px;
+    color: white !important;
+}
+.contact-form input:focus,.contact-form textarea:focus
+{
+    box-shadow: none;
+    background-color: #232a31;
+}
+.contact-form input::placeholder,.contact-form textarea::placeholder
+{
+    color: #656565;
+}
+.resume-box
+{
+    padding: 20px;
+    background-color: #111418;
+    border-radius: 5px;
+}
+.resume-box span.study-year
+{
+    background-color: #FECB01;
+    border-radius: 10px;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+.resume-box span.study-place
+{
+    color: #FECB01;
+}
+.resume-box p 
+{
+    line-height: 24px;
+}
+.skill-text
+{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-div .progress
+{
+    height: 10px;
+    border-radius: 5px;
+}
+.skill-div .progress-bar
+{
+    background-color: #FECB01;
+}
+.work-img img
+{
+    width: 100%;
+    border-radius: 5px;
+    height: 350px;
+    object-fit: cover;
+}
+.work-menu
+{
+    padding-left: 0px;
+    margin: 0px;
+}
+.work-menu li 
+{
+    display: inline-flex;
+    list-style-type: none;
+    position: relative;
+}
+.work-menu li a 
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+.work-menu li a.active
+{
+    color: #FECB01;
+}
+.work-menu li::before a.ctive
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #FECB01;
+}
+#contactMsg
+{
+    display: none;
+}
+
+
+/*****************RESPONSIVE***********************/
+
+@media (max-width: 991.98px){
+
+.primary-menu {
+    height: auto!important;
+    overflow: visible;
+    width: 100%;
+}
+#header-nav
+{
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 10px 15px;
+}
+.navbar-toggler {
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    transition: .5s ease-in-out;
+    width: 25px;
+}
+.navbar-toggler, .navbar-toggler span {
+    display: block;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.navbar-toggler span {
+    background: #3c3636;
+    border-radius: 2px;
+    height: 2px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    transition: .25s ease-in-out;
+    width: 100%;
+}
+.navbar-toggler span:first-child {
+    top: 7px;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+}
+.primary-menu.navbar-dark .navbar-toggler span {
+    background: #fff;
+}
+.navbar-toggler.show span:first-child {
+    left: 3px;
+    top: 3px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.navbar-toggler.show span:nth-child(3) {
+    left: 3px;
+    top: 21px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.navbar-toggler.show span:nth-child(2) {
+    opacity: 0;
+    width: 0;
+}
+.navbar-toggler span:nth-child(2) {
+    top: 14px;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+}
+.logo h1,.social-icons li a i {
+    font-size: 20px;
+}
+.social-icons {
+    margin: 0px;
+}
+.navbar-toggler span:nth-child(3) {
+    top: 21px;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+}
+.social-icons li {
+    padding: 10px 10px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+#main-wrapper {
+    margin-left: auto;
+}
+}
+
+@media (max-width: 768px){
+    .logo h1,.social-icons li a i {
+        font-size: 18px;
+    }
+
+
+
+}
+
+@media (max-width: 575px){
+    .logo h1,.social-icons li a i {
+        font-size: 16px;
+    }
+    .main-title p
+    {
+        font-size: 28px;
+    }
+    .main-title h2 {
+        font-size: 54px;
+    }
+    .main-title p
+    {
+        top: 15%;
+    }
+    .home-wrap h1 {
+        font-size: 36px;
+    }
+}
+
